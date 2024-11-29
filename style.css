@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, p, h3, h2, h4 {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-image {
+    width: 150px;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./assets/banner.jpg");
+    background-size: cover;
+    padding: 30px;
+}
+
+.get-started-title {
+    color: rgb(3, 108, 108);
+    margin-bottom: 20px;
+}
+
+.get-started-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.get-started-action {
+    background-color: rgb(223, 102, 31);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.info-title {
+    color: rgb(82, 115, 169);
+    margin-bottom:7.5px;
+}
+
+.info-description {
+    color: rgb(84, 84, 84);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info-image {
+    border-radius: 50%;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.info-epicode {
+    background-color: rgb(255, 57, 57);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 20px;
+}
+
+.info-epicode-title {
+    margin-bottom: 20px;
+}
+
+.info-epicode-description {
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info-epicode-name {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.info-epicode-ceo {
+    font-weight: normal;
+}
+
+.info-cards {
+    padding: 30px;
+    gap:40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card {
+    box-shadow: 0px 0px 5px 1px rgb(131, 131, 131);
+}
+
+.info-card-image {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.info-card-title {
+    color: rgb(82, 115, 169);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-card-description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-card-content {
+    padding: 20px;
+}
+
+.contact {
+    background-color: rgb(31, 130, 179);
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.contact-info {
+    padding: 20px;
+font-size: 35px;
+}
+
+.contact-description {
+    text-decoration: underline;
+    font-weight:300;
+}
+
+.contact-mail {
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+.contact-address {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.spaziatore {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 1px;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+.text-underline{
+text-decoration: underline;
+}
+
+.contact-copyright {
+    font-weight: 300;
+}
